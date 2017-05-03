@@ -1,0 +1,79 @@
+body {
+  background-color:#fefefe;
+  color: #5196f3;
+}
+input:focus, button:focus{
+  outline: none;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radial-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.radial-buttons-container {
+  height: 100%;
+}
+
+.radial-buttons {
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.round-button {
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+}
+.round-button:hover {
+  background-size: 0;
+}
+
+.radial-select-center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.radial-select-center img{
+  width: 200px;
+  height: 200px;
+}
+
+.filter-input {
+  width: 250px;
+  height: 30px;
+  border-radius: 30px;
+  border: 3px solid #5196F3;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.select-button {
+  background-color: #5196F3;
+  border: none;
+  width: 300px;
+  height: 66px;
+  border-radius: 33px;
+  transition: all .2s;
+  color: #fefefe;
+  font-size: 20px;
+}
+
+.select-button:hover {
+  background-color: #FEFEFE ;
+  border: 2px solid #5196f3;
+  color: #5196f3;
+  }
