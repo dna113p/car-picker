@@ -1,0 +1,31 @@
+{
+  "name": "AGPicker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "webpack": "webpack -wd"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "webpack": "^2.4.1"
+  }
+}
